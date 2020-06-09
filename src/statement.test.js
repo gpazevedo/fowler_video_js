@@ -4,13 +4,25 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-const  { statement} = require ('./statement');
+const  { statement } = require ('./statement');
 
-// Get the movies
+
+const result = 
+`Rental Record for martin
+\tRan\t3.5
+\tTrois Couleurs: Bleu\t2
+Amount owed is 5.5
+You earned 2 frequent renter points
+`;
+
+// Get the plays
 const movies = require('./movies.json');
 
-// Get the customer
+// Get the invoices
 const customer = require('./customer.json');
 
 let invoice_msg = statement (customer, movies);
-console.log (invoice_msg);
+
+test ('Total Statement', () => {
+    expect(invoice_msg).toEqual(result);
+});

@@ -1,15 +1,10 @@
-## Development Setup
+## Video Store - Refactoring JS 2016
 
-```
-# Install dependencies
-$ yarn
+https://martinfowler.com/articles/refactoring-video-store-js/
 
-# Development
-$ yarn format          # prettify the code
-$ yarn lint            # static code analysis
-$ yarn test            # run tests
-$ yarn test:coverage   # check test coverage
+Original version written in javascript.
+I added an E2E test.
 
-# Run the program
-$ node src/index.js
-```
+Lets start !
+
+
