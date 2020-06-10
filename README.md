@@ -7,4 +7,7 @@ I added an E2E test.
 
 Lets start !
 
+My aproach: 
+* move calculation logic to classes
+* build an intermediate data structure for the rendering functions
 
